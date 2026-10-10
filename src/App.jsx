@@ -40,11 +40,18 @@ function App() {
     )}`;
 
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+
+    setForm({
+      name: "",
+      phone: "",
+      service: "Individual Counselling",
+      message: "",
+    });
   };
 
-  const closeMenu = () => setMenuOpen(false);
+const closeMenu = () => setMenuOpen(false);
 
-  return (
+return (
     <div className="app">
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu}>
@@ -292,33 +299,49 @@ function App() {
               className="contact-social-link"
               aria-label="Visit Inner Leaves on Instagram"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" />
-              </svg>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="url(#instagramGradient)"
+  strokeWidth="1.8"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <defs>
+    <linearGradient
+      id="instagramGradient"
+      x1="3"
+      y1="21"
+      x2="21"
+      y2="3"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stopColor="#feda75" />
+      <stop offset="30%" stopColor="#fa7e1e" />
+      <stop offset="60%" stopColor="#d62976" />
+      <stop offset="80%" stopColor="#962fbf" />
+      <stop offset="100%" stopColor="#4f5bd5" />
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="18" height="18" rx="5" />
+  <circle cx="12" cy="12" r="4" />
+  <circle
+    cx="17.5"
+    cy="6.5"
+    r="0.8"
+    fill="#d62976"
+    stroke="none"
+  />
+</svg>
+
               <span>Follow us on Instagram</span>
             </a>
 
-            <a
-              className="contact-whatsapp-link"
-              href={`https://wa.me/${whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span aria-hidden="true">☏</span> Chat with us on WhatsApp
-            </a>
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
@@ -386,7 +409,11 @@ function App() {
 
       <footer className="footer">
         <a className="brand footer-brand" href="#home">
-          <span className="brand-mark">i.</span>
+         <img
+  className="brand-logo"
+  src={innerLeavesLogo}
+  alt="Inner Leaves logo"
+/>
           <span>
             <strong>inner leaves</strong>
             <small>PSYCHOLOGY & WELLBEING</small>
