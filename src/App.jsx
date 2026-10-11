@@ -182,47 +182,40 @@ return (
   </p>
 
   <p>
-    Inner Leaves is not a conventional mental health clinic.
-    It is a psychological healing space built on the belief that
-    individual wellbeing and social wellbeing are not separate
-    concerns, but two forces that continuously shape one another.
-  </p>
-
-  <p>
-    We exist at the intersection of personal healing and social
-    responsibility, offering a space where people are not just
-    treated, but truly seen, heard, and supported in becoming
+    Inner Leaves is not a conventional mental health clinic. It is a
+    psychological healing space built on the belief that individual
+    wellbeing and social wellbeing are not separate concerns, but two
+    forces that continuously shape one another. We exist at the
+    intersection of personal healing and social responsibility, offering
+    a space where people are truly seen, heard, and supported in becoming
     agents of change within their own lives and communities.
   </p>
 
   <p>
-    We understand mental health and social health as dialectically
-    connected: each shapes, challenges, and transforms the other.
-    A person's inner world is never formed in isolation; it is shaped
-    by the conditions, relationships, and injustices of the society
-    around them.
-  </p>
-
-  <p>
-    Healing happens in the ongoing exchange between the individual
-    and the collective. Just as leaves draw nourishment from roots
-    unseen and sustain the tree that holds them, we believe healing
-    moves in both directions at once—inward and outward, personal
-    and social.
+    A person's inner world is never formed in isolation; it is shaped by
+    the conditions, relationships, and injustices of the society around
+    them. In turn, the collective psychological state of a community—its
+    resilience, its wounds, and its capacity for care—shapes the social
+    fabric itself. Healing is not something that happens only within a
+    person and then flows outward. It happens in the ongoing exchange
+    between the individual and the collective.
   </p>
 
   <h4>Why "Inner Leaves"?</h4>
 
   <p>
-    Every leaf is unique, yet connected to the same tree. Each person
-    who walks through our doors carries their own story, struggles,
-    and strengths—but none of us heal in isolation.
+    Just as leaves draw nourishment from roots unseen and, in turn,
+    sustain the tree that holds them, we believe healing moves in both
+    directions at once—inward and outward, personal and social,
+    continuously feeding one another.
   </p>
 
   <p>
-    Our name reflects our core philosophy: inner transformation and
-    social transformation exist in a dialectical relationship, each
-    continuously shaping, challenging, and renewing the other.
+    Every leaf is unique, yet connected to the same tree. Each person who
+    walks through our doors carries their own story, struggles, and
+    strengths, but none of us heal in isolation. We provide a space for
+    inner healing alongside an understanding of each person's story
+    within the context of their existence.
   </p>
 
   <h4>What Makes Us Different</h4>
@@ -232,24 +225,25 @@ return (
       <strong>Trauma-Informed Care</strong>
       <p>
         Every interaction is rooted in safety, trust, and an
-        understanding of how trauma shapes behavior, emotion,
-        and relationships.
+        understanding of how trauma shapes behavior, emotion, and
+        relationships.
       </p>
     </li>
 
     <li>
       <strong>Gender-Sensitive Practice</strong>
       <p>
-        We recognize that gender shapes experience, access,
-        and healing, and we tailor our approach accordingly.
+        We recognize that gender shapes experience, access, and healing,
+        and we tailor our approach accordingly.
       </p>
     </li>
 
     <li>
-      <strong>An Inclusive, Intersectional Approach</strong>
+      <strong>Intersectionally Informed, Inclusive Space</strong>
       <p>
-        We understand that each person's experience is shaped
-        by the intersection of multiple identities and social positions.
+        Our care is informed by the understanding that each person's
+        experience is shaped by the intersection of multiple identities
+        and social positions.
       </p>
     </li>
 
@@ -257,33 +251,49 @@ return (
       <strong>Community-Centred Healing</strong>
       <p>
         We believe mental health is a shared social responsibility,
-        connected to the health of the wider community.
+        connected to the health of the community, not just an individual
+        burden.
       </p>
     </li>
   </ul>
+
+  <h4>Our Services</h4>
+
+  <p>
+    <strong>1. Individual Counselling</strong>
+    <br />
+    Personalized, confidential support for a wide range of concerns,
+    including anxiety, depression, trauma, relationship issues, identity
+    struggles, grief, and more—delivered with warmth and evidence-based
+    care.
+  </p>
+
+  <p>
+    <strong>2. Training &amp; Capacity Building</strong>
+    <br />
+    Workshops and training programs designed to build psychological
+    literacy, resilience, and sensitivity among educators, workplaces,
+    community organizations, and caregivers, empowering others to become
+    informed supporters of mental health in their own circles.
+  </p>
+
+  <h4>Our Commitment</h4>
+
+  <p>
+    At Inner Leaves, we don't just treat symptoms. We nurture growth,
+    build community resilience, and advocate for a world where mental
+    health is understood not as a private struggle, but as a collective
+    social responsibility, inseparable from the health of the society
+    we all share.
+  </p>
 
   <a className="text-link" href="#approach">
     Learn about my approach <span>→</span>
   </a>
 </div>
+```
 
 
-
-            <div className="about-copy">
-              <p>
-                Hello, I'm your psychologist. I believe that every person
-                deserves to be heard, understood, and supported without
-                judgment.
-              </p>
-              <p>
-                This is a space where we can slow down, explore what you're
-                experiencing, and take small, meaningful steps towards
-                understanding yourself better.
-              </p>
-              <a className="text-link" href="#approach">
-                Learn about my approach <span>→</span>
-              </a>
-            </div>
           </div>
 
           <div className="about-note">
