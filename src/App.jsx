@@ -142,37 +142,131 @@ return (
          
 
           <div className="about-content">
-          <div className="about-photo">
-              <img
-            src={drKavithaPhoto}
-              alt="Dr. Kavitha G Bhaskaran"
-             />
+        
+<div className="about-photo-column">
+  <div className="about-photo">
+    <img
+      src={drKavithaPhoto}
+      alt="Dr. Kavitha G Bhaskaran"
+    />
   </div>
+
+  <div className="about-quote-card">
+    <span className="quote-leaf" aria-hidden="true">❧</span>
+    <p className="about-quote">
+      A space to pause, reflect, and grow.
+    </p>
+    <p className="about-quote-caption">
+      Your journey towards self-understanding begins here.
+    </p>
+    <span className="about-quote-brand">
+      INNER LEAVES · PSYCHOLOGY & WELLBEING
+    </span>
+  </div>
+</div>
+
             <div className="about-heading">
               <span className="eyebrow">HELLO, I'M GLAD YOU'RE HERE</span>
               <h2>
                 You deserve a space where you can <em>just be.</em>
               </h2>
             </div>
-            
+
 <div className="about-copy">
+  <span className="eyebrow">ABOUT INNER LEAVES</span>
+
   <h3>Dr. Kavitha G Bhaskaran</h3>
+
   <p className="professional-qualifications">
     MSc and PhD in Applied Psychology
   </p>
+
   <p>
-    I believe every person deserves to be heard, understood, and
-    supported with compassion and without judgment.
+    Inner Leaves is not a conventional mental health clinic.
+    It is a psychological healing space built on the belief that
+    individual wellbeing and social wellbeing are not separate
+    concerns, but two forces that continuously shape one another.
   </p>
+
   <p>
-    Inner Leaves is a space to pause, explore your experiences,
-    and take meaningful steps towards greater self-understanding
-    and emotional wellbeing.
+    We exist at the intersection of personal healing and social
+    responsibility, offering a space where people are not just
+    treated, but truly seen, heard, and supported in becoming
+    agents of change within their own lives and communities.
   </p>
+
+  <p>
+    We understand mental health and social health as dialectically
+    connected: each shapes, challenges, and transforms the other.
+    A person's inner world is never formed in isolation; it is shaped
+    by the conditions, relationships, and injustices of the society
+    around them.
+  </p>
+
+  <p>
+    Healing happens in the ongoing exchange between the individual
+    and the collective. Just as leaves draw nourishment from roots
+    unseen and sustain the tree that holds them, we believe healing
+    moves in both directions at once—inward and outward, personal
+    and social.
+  </p>
+
+  <h4>Why "Inner Leaves"?</h4>
+
+  <p>
+    Every leaf is unique, yet connected to the same tree. Each person
+    who walks through our doors carries their own story, struggles,
+    and strengths—but none of us heal in isolation.
+  </p>
+
+  <p>
+    Our name reflects our core philosophy: inner transformation and
+    social transformation exist in a dialectical relationship, each
+    continuously shaping, challenging, and renewing the other.
+  </p>
+
+  <h4>What Makes Us Different</h4>
+
+  <ul className="about-values">
+    <li>
+      <strong>Trauma-Informed Care</strong>
+      <p>
+        Every interaction is rooted in safety, trust, and an
+        understanding of how trauma shapes behavior, emotion,
+        and relationships.
+      </p>
+    </li>
+
+    <li>
+      <strong>Gender-Sensitive Practice</strong>
+      <p>
+        We recognize that gender shapes experience, access,
+        and healing, and we tailor our approach accordingly.
+      </p>
+    </li>
+
+    <li>
+      <strong>An Inclusive, Intersectional Approach</strong>
+      <p>
+        We understand that each person's experience is shaped
+        by the intersection of multiple identities and social positions.
+      </p>
+    </li>
+
+    <li>
+      <strong>Community-Centred Healing</strong>
+      <p>
+        We believe mental health is a shared social responsibility,
+        connected to the health of the wider community.
+      </p>
+    </li>
+  </ul>
+
   <a className="text-link" href="#approach">
     Learn about my approach <span>→</span>
   </a>
 </div>
+
 
 
             <div className="about-copy">
@@ -219,8 +313,7 @@ return (
               <div className="service-icon" aria-hidden="true">♡</div>
               <h3>Individual Counselling</h3>
               <p>
-                A confidential, supportive space to explore personal
-                challenges, feelings, and experiences.
+                Personalized, confidential support for a wide range of concerns anxiety, depression, trauma, relationship issues, identity struggles, grief, and more delivered with warmth and evidence-based care.
               </p>
               <a href="#contact" aria-label="Enquire about individual counselling">
                 Enquire <span>↗</span>
@@ -232,8 +325,7 @@ return (
               <div className="service-icon" aria-hidden="true">✳</div>
               <h3>Emotional Wellbeing</h3>
               <p>
-                Understand your emotions, recognise patterns, and build
-                healthier ways to navigate everyday life.
+                Workshops and training programs designed to build psychological literacy, resilience, and sensitivity across different groups including educators, workplaces, community organizations, and caregivers empowering others to become informed supporters of mental health in their own circles
               </p>
               <a href="#contact" aria-label="Enquire about emotional wellbeing">
                 Enquire <span>↗</span>
