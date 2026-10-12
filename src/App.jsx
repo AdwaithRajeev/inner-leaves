@@ -481,9 +481,10 @@ return (
               onChange={handleChange}
             >
               <option>Individual Counselling</option>
-              <option>Emotional Wellbeing</option>
+              <option>Work Shop or Traning </option>
               <option>Personal Growth</option>
               <option>General Enquiry</option>
+              <option>Psycho Education</option>
             </select>
 
             <label htmlFor="message">Anything you'd like to share? (Optional)</label>
